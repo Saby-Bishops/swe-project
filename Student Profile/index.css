@@ -1,84 +1,39 @@
 @import url("https://rsms.me/inter/inter.css");
+
 html {
   font-family: "Inter", sans-serif;
 }
+
 @supports (font-variation-settings: normal) {
   html {
     font-family: "Inter var", sans-serif;
   }
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-nav {
-  background-color: #341d30;
-  position: relative;
-  z-index: 1;
-  padding: 0 50px;
-  height: 49px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #341d30;
-  box-shadow: 0px 7px 20px #341d30;
-  margin-bottom: 5rem;
-}
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  font: 20px;
-}
-li {
-  display: flex;
-  font: 50px;
-  align-items: center;
-  justify-content: center;
-  padding: 0 50px;
-  font: 20px;
-}
-li > a {
-  font-family: "Inter";
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 39px;
-  color: #d5b8d0;
-}
-li > a:hover {
-  color: #f5f5f5;
-}
-nav > h1 {
-  color: #fff;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 39px;
-  font: 22px;
-}
+
 .avatar {
   width: 10px;
   border-radius: 10%;
   border: 3px solid black;
 }
+
 .avatar-l {
   width: 150px;
   border-radius: 50%;
   border: 3px solid black;
 }
+
 .parent {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .container {
   width: 90vw;
   height: 70vh;
@@ -89,6 +44,7 @@ nav > h1 {
   align-items: center;
   justify-content: center;
 }
+
 .left {
   width: 30%;
   height: 100%;
@@ -109,6 +65,7 @@ nav > h1 {
   flex-direction: column;
   /* border-bottom: 1px solid; */
 }
+
 .down {
   width: 100%;
   height: 100%;
@@ -119,10 +76,12 @@ nav > h1 {
   align-items: center;
   justify-content: center;
 }
+
 .space {
   width: 4rem;
   height: 3rem;
 }
+
 .line {
   width: 80%;
   height: 1px;
@@ -130,7 +89,8 @@ nav > h1 {
   margin: 30px;
   margin-bottom: -20px;
 }
-.h3{
+
+.h3 {
   text-decoration-color: black;
   font: 2px;
 }
@@ -143,6 +103,7 @@ button {
   border: 3px solid #341d30;
   border-radius: 10px;
 }
+
 .cred {
   position: relative;
   bottom: 40px;
@@ -164,34 +125,42 @@ input {
   align-items: center;
   justify-content: center;
 }
+
 .fifty {
   width: 60%;
   height: 35px;
 }
+
 .seventy {
   width: 40%;
-    height: 35px;
+  height: 35px;
 }
+
 .thirty {
   width: 40%;
-    height: 35px;
+  height: 35px;
 }
+
 .hundred {
   width: 86%;
-    height: 35px;
+  height: 35px;
 }
+
 .forty {
   width: 25%;
-    height: 35px;
+  height: 35px;
 }
+
 .fifty {
   width: 25%;
-    height: 35px;
+  height: 35px;
 }
+
 .sixty {
   width: 25%;
-    height: 35px;
+  height: 35px;
 }
+
 .form-button {
   background: #341d30;
   color: #FFFFFF;
@@ -204,8 +173,25 @@ input {
   line-height: 30px;
   border-radius: 10px;
 }
-.editButton{
+
+.editButton {
   margin-bottom: -10px;
   height: 35px;
+}
 
+.footer {
+  margin-top: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #341D30;
+}
+
+.contact-us {
+  color: #FFEDE1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.input-textbox {
+  background-color: #FFEDE1;
 }

@@ -1,5 +1,22 @@
-.login_container{
-    margin-top: 10%;
-    margin: 20%;
-    margin-right: 20%;
+.login_container {
+  margin-top: 10%;
+  margin: 20%;
+  margin-right: 20%;
+}
+
+.footer {
+  margin-top: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #341D30;
+}
+
+.contact-us {
+  color: #FFEDE1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.input-textbox {
+  background-color: #FFEDE1;
 }
